@@ -1,3 +1,6 @@
 sphinx_rtd_theme==0.4.3
 sphinx==2.2.0
 sphinx-tabs==1.1.12
+sphinxcontrib-remoteliteralinclude==0.0.3
+latex==0.7.0
+doc8==0.8.0
