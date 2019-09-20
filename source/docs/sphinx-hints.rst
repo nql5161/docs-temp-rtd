@@ -73,3 +73,18 @@ The following is a list of available admonitions:
 * ``note``
 * ``tip``
 * ``warning``
+
+Sphinx Extensions
+-----------------
+
+Occasionally, you'll want to do something not supported by the default features included in this template.  That's OK!  Sphinx is extremely customizeable, and can do most anything you want (with enough effort).
+
+Community-Contributed Sphinx Extensions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+A wealth of community-written, open-source Sphinx extensions can be found at `sphinx-contrib <https://github.com/sphinx-contrib>`__.  Even more can be found on google.
+
+Custom Sphinx Extensions
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+In some rare cases, no existing Sphinx extension will serve your purpose.  Thankfully, it is very easy to write a custom Sphinx extension.  For guidance on how to do this, see the `Sphinx extension tutorials <https://www.sphinx-doc.org/en/master/development/tutorials/helloworld.html`__.  As Sphinx is entirely open-source, it is often a good idea to start by modifying one of the existing Sphinx directives.
