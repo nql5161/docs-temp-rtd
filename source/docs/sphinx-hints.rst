@@ -54,7 +54,7 @@ Tabbed content can be included by using the ``tabs`` directive (the tabs extensi
 Admonitions
 -----------
 
-Admonitions (such as notes and warnings), and should be used often:
+Admonitions (such as notes and warnings) are extremely helpful for calling reader attention to important details, and should be used often:
 
 .. code-block:: text
 

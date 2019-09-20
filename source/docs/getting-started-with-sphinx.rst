@@ -19,7 +19,7 @@ The MRWolf Sphinx Template
 
 The MRWolf Sphinx Template is a baseline Sphinx project set up with the Munich Re company branding and color scheme.  It is the standard foundation that all MRWolf project-level documentation should be based on.
 
-That said, nothing in this template is "set in stone."  Users should not change things haphazardly, as consistency in documentation across projects is extremely important for facilitating readability, but the extremely customizeable nature of Sphinx means that nearly anything can be changed, if desired.  The proivded default settings should work for most projects, but are recommendations only.
+That said, nothing in this template is "set in stone."  Users should not change things haphazardly, as consistency in documentation across projects is extremely important for facilitating readability, but the extremely customizeable nature of Sphinx means that nearly anything can be changed, if desired.  The provided default settings should work for most projects, but are recommendations only.
 
 .. TODO:: Link to template when it has a permanent location.
 
