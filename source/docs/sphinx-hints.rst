@@ -20,7 +20,7 @@ Code blocks are usually handled with the ``code-block`` directive:
 
 Occasionally, it is convenient to sample code multiple code blocks from a single source file.  If the file is included in the project directory, then this can be done with the `literalinclude <https://www.sphinx-doc.org/en/1.5/markup/code.html#Includes>`__ directive.
 
-If the source file is not present in the project directory, but is hosted on the web, the `remoteliteralinclude <https://pypi.org/project/sphinxcontrib-remoteliteralinclude/>`__ extension can be used.
+If the source file is not present in the project directory, but is hosted on the web, the `remoteliteralinclude <https://pypi.org/project/sphinxcontrib-remoteliteralinclude/>`__ extension can be used.  This is included in the default template.
 
 .. TODO:: Can this work with code hosted on private repos?
 
@@ -73,6 +73,17 @@ The following is a list of available admonitions:
 * ``note``
 * ``tip``
 * ``warning``
+
+TODOs
+-----
+
+Like the code being documented, the documentation itself is a living project.  It will almost never be in a truly "finished" state.  Accordingly, it is useful to be able to mark TODOs for easy review.  This can be done with the ``TODO`` directive:
+
+.. code-block:: text
+
+  .. TODO:: A note on what needs to be done.
+
+By default, TODOs will *not* be displayed in the built documentation, and will only be visible in source.  Their display can be enabled by `changing the appropriate setting <https://www.sphinx-doc.org/en/master/usage/extensions/todo.html>`__ in your project's ``conf.py``.
 
 Sphinx Extensions
 -----------------
