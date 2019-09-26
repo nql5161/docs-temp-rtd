@@ -28,12 +28,22 @@ Starting Your Project from the Template
 
 The first step to starting a MRWolf Sphinx Documentation project is to copy the template's git repository into your own documentation project's repository.
 
+Until a permanent hosting solution is found, the template can be found here:
+
+https://github.com/MRWolves/sphinx-template
+
+To create a copy of the documentation template, simply create a new GitHub repository, select "copy from existing source" on the new repo splash page, and entre the template URL.
+
 .. TODO:: finish this section once the template is hosted in a permanent location
 
 Hosting Your Project
 --------------------
 
+.. warning:: The temporary hosting solution is *public*.  Do not put any sensitive information on a publicly-hosted Sphinx page!
+
 After the project has been started, it's time to set up hosting - once the hosting process has been configured, your documentation will be automatically built and hosted from your documentation project repository.
+
+Until a permanent hosting solution is found, a temporary solution is to host your project on ReadTheDocs.  Sphinx integration with RTD is simple.  Simply create an account on https://readthedocs.org/, and follow the instructions for hosting documentation from the github repository you set up in the previous step. 
 
 .. TODO:: finish this section once the hosting process is finalized
 
